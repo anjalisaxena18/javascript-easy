@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.fullscreen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.converter-box {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.temp-converter-heading {
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px; /* Add margin for spacing */
+  font-size: 3rem; /* Increased font size for heading */
+}
+
+.input-group {
+  margin-bottom: 16px; /* Spacing between input groups */
+  text-align: center; /* Center text in input groups */
+}
+
+.input-field {
+  width: 300px;
+  padding: 10px;
+  background: transparent;
+  border: 2px solid #717377;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+}
+
+.convert-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px; /* Smaller button size */
+  border-radius: 6px;
+  margin-top: 8px; /* Spacing above button */
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+  font-size: 1rem; /* Adjust font size for the button */
+}
+
+.convert-btn:hover {
+  background-color: #505050;
+}
+
+.result {
+  margin-top: 16px;
+  color: white;
+  text-align: center; /* Center result text */
+}

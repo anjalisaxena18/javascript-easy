@@ -1,0 +1,87 @@
+/* General body and layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+/* Container for the entire Pomodoro clock */
+.pomodoro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Heading for the Pomodoro clock */
+.pomodoro-heading {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Main box that contains the timer and buttons */
+.pomodoro-box {
+  border: 1px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Timer display */
+.timer-display {
+  font-size: 6rem;
+  color: white;
+  margin: 20px 0;
+}
+
+/* Status label (Work Time / Break Time) */
+.status-label {
+  font-size: 1.5rem;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* Control buttons container */
+.control-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+/* Button styles */
+button {
+  padding: 16px 32px;
+  font-size: 1.25rem;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Start/Pause button */
+.start-btn {
+  background-color: #4CAF50;
+}
+
+.start-btn:hover {
+  background-color: #3e8e41;
+}
+
+/* Reset button */
+.reset-btn {
+  background-color: #FF4F4F;
+}
+
+.reset-btn:hover {
+  background-color: #e44c4c;
+}
